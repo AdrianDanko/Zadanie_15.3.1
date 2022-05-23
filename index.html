@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Textový analyzátor</h2>
+
+        <textarea name="text" rows="10" id="text" placeholder="Vlož text"></textarea>
+        <br>
+
+        <div class="tlačidla">
+
+            <button type="button" onclick="analyzuj()">
+                Analyzovať
+            </button>
+
+            <button type="button" onclick="zasifruj()">
+                Zašifrovať
+            </button>
+
+        </div>
+        <br>
+        <div class="tlačidla">
+
+            <input type="search" name="search" id="search" placeholder="Hľadaj">
+
+            <button type="button" id="find" onclick="hladaj()">
+                Hľadaj
+            </button>
+        </div>
+
+        <br>
+
+        <div id="container">
+
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

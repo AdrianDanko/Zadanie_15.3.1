@@ -1,0 +1,49 @@
+.container {
+    /*border: solid 2px green;*/
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif
+}
+
+textarea {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 600px;
+}
+
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+.tlačidla {
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 2px solid;
+    /*color: #b0100a;*/
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px 5px;
+}
+
+#find {
+    width: 60px;
+    margin-left: 0px;
+}
+
+#search {
+    width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
